@@ -54,4 +54,14 @@ describe("Test Maha-Lab", () => {
     const result = MahaLap.tamnaiWithDay("20");
     expect(result).toEqual(99);
   });
+
+  test("Test Tamnai with story", () => {
+    const result = MahaLap.tamnaiWithStory("งู");
+    expect(result).toEqual(3);
+  });
+
+  test("Test Tamnai with story", () => {
+    const result = MahaLap.tamnaiWithStory("แมว");
+    expect(result).toEqual(5);
+  });
 });

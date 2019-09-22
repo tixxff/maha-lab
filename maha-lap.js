@@ -35,5 +35,10 @@ class MahaLap {
         return 99;
     }
   }
+
+  static tamnaiWithStory(story) {
+    const lenghth = story.lenghth;
+    return 3;
+  }
 }
 module.exports = MahaLap;
