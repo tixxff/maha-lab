@@ -6,7 +6,12 @@ describe("Test Maha-Lab", () => {
   });
 
   test("Test Tamnai with day", () => {
-    const result = MahaLap.tamnaiWithDay("วันอาทิตย์");
-    expect(result).toEqual(1);
+    const result = MahaLap.tamnaiWithDay("วันอังคาร");
+    expect(result).toEqual(3);
+  });
+
+  test("Test Tamnai with day", () => {
+    const result = MahaLap.tamnaiWithDay("วันพุธ");
+    expect(result).toEqual(4);
   });
 });
