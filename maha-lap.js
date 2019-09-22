@@ -9,6 +9,9 @@ class MahaLap {
 
       case day === "วันพุธ":
         return 4;
+
+      case day === "วันพฤหัสบดี":
+        return 5;
     }
   }
 }

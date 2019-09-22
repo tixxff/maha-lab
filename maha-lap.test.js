@@ -14,4 +14,9 @@ describe("Test Maha-Lab", () => {
     const result = MahaLap.tamnaiWithDay("วันพุธ");
     expect(result).toEqual(4);
   });
+
+  test("Test Tamnai with day", () => {
+    const result = MahaLap.tamnaiWithDay("วันพฤหัสบดี");
+    expect(result).toEqual(5);
+  });
 });
