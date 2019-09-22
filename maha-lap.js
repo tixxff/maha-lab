@@ -37,8 +37,12 @@ class MahaLap {
   }
 
   static tamnaiWithStory(story) {
-    const lenghth = story.lenghth;
-    return 3;
+    const n = story.length;
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+      sum += i;
+    }
+    return sum % 100;
   }
 }
 module.exports = MahaLap;
